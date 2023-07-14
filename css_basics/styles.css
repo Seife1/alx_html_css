@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* background color chnaged*/
+    background-color: rgb(82, 243, 243);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Styles for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 768px) {
+    body.works_on_smartphone {
+        display: block;
+    }
+    body.works_on_smartphone main {
+        display: block;
+    }
+    header .right {
+        float: none;
+    }
+}
+
+/* To make my website unique*/
+
+article {
+    background-color: rgb(201, 247, 247);
+}
+
+strong {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: green;
+}
