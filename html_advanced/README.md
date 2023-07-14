@@ -5,4 +5,4 @@ HTML (HyperText Markup Language) is the most basic building block of the Web. It
 * In this project I have clearly learnt how it defines and structure the content. Since every task has there own objective, clearly define the wireframe and how should we apply.
 * HTML structure only - no CSS, no style - just pure HTML semantic.
 
-![Wireframe](C:\Users\mosis\OneDrive\Documents\ALX ISWE\alx_html_css\img\Wireframe.png)
+![Wireframe](https://blog.openreplay.com/images/advance-your-websites-seo-with-html/images/hero.png)
