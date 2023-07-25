@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-family: Source Sans Pro;
+    letter-spacing: 0px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 1093px;
+    width: 100%;
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    width: 1103px;
+    height: 29.px;
+
+}
+
+li{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu-nav, .tag-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+.menu-nav li{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0 2rem;
+}
+
+.tag-menu{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 15rem;
+
+}
+
+a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button{
+    border-radius: 20rem;
+    width: 162px;
+    height: 44px;
+    margin: 2rem auto;
+    background: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 20px 0px #00000080;
+
+
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 237px;
+    margin: 3rem;
+}
+
+.inst{
+    margin: 0 4rem;
+}
+
+.inst .circular{
+    border-radius: 50%;
+}
+.mention h3{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+}
+.mention h3.tag{
+    font-weight: 300;
+    font-size: 32px;
+}
+
+h3.tag strong{
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.title h1{
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 151px;
+    margin-bottom: 0;
+
+}
+
+.quote{
+    display: flex;
+    background: #C271FF;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 392px;
+    color: white;
+    border-left: 15rem;
+}
+
+.quote article{
+    margin-left: 15rem;
+}
+aside.text{
+    flex: 2;
+    margin-right: 10rem;
+    margin-left: 0;
+    padding-right: 17rem;
+    padding-left: 5rem;
+}
+
+.quote .name{
+    text-align: left;
+}
+
+.name h3{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+
+}
+
+.text blockquote{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 3rem;
+
+}
+
+.tutorials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 3rem auto 2rem auto;
+    height: 450px;
+}
+
+.tutorials .mention .tag{
+    padding-bottom: 3rem;
+}
+
+.tutor-list{
+    margin: 2rem;
+}
+.fix{
+    position: relative;
+    z-index: 1;
+}
+
+.fix p{
+    color: #07162980;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+}
+.video .play{
+    position: absolute;
+    margin-top: -95px;
+    margin-left: 100px;
+    z-index: 3;
+
+}
+
+.rate{
+    margin: 1rem auto;
+}
+
+.inst-img, .star{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #C271FF;
+    
+}
+
+.star{
+    justify-content: space-between;
+    margin: 0.75rem auto;
+}
+
+.inst-img img{
+    width: 30px;
+    height: 30px;
+    margin-right: 2rem;
+}
+
+.member{
+    background: #071629;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.member .mention .tag {
+    padding-top: 3rem;
+}
+
+.mem{
+    margin: 4rem 2rem;
+}
+
+.mem p{
+    width: 215px;
+    height: 52px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 2rem;
+
+}
+
+.q-a{
+    margin: 2rem 5rem;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: -3rem;
+}
+
+#col-1, #col-2{
+    padding: 6rem;
+    text-align: start;
+
+}
+
+.row .question{
+    margin: 2rem auto;
+}
+
+.faq{
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 75px;
+}
+
+.question h2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 1rem;
+}
+
+.question p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #07162980;
+
+}
+
+.footer{
+    width: 100%;
+    background: #071629;
+    color: white;
+    justify-content: center;
+    margin: 2rem, auto;
+    padding: 3rem;
+}
+
+.footer footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.social-m{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-m li{
+    margin: auto 1rem;
+}
+
+
+svg{
+    fill: white;
+}
+
+.copyWrite{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #919090;
+    margin-top: 3rem;
+
+}
