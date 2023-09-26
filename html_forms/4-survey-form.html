@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <style>
+        fieldset {
+            margin: 0 auto;
+            width: 400px;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 1em;
+        }
+
+        fieldset#pre {
+            padding: 0;
+            border: 1px solid #fff;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 400px;
+            padding: 1em;
+            border-radius: 1em;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        section {
+            margin-left: 2.5rem;
+        }
+
+        form li + li {
+        margin-top: 1em;
+        }
+
+        button {
+            margin-left: 5rem;
+            background-color: aqua;
+            border: none;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Feedback Form</legend>
+        <form action="#">
+            <ul>
+                <li>
+                    <label for="name">Full Name:
+                        <input type="text" id="name">
+                    </label>
+                </li>
+                <li>
+                    <label for="email">Email:
+                        <input type="email" id="email">
+                    </label>
+                </li>
+                <li>
+                    <fieldset id="pre">
+                        <label for="simple">Favorite color</label>
+                        <select id="simple" name="color">
+                            <option name="prefer" value="Red" id="red">Red</option>
+                            <option  name="prefer" value="Blue" id="blue">Blue</option>
+                            <option name="prefer" value="green" id="green">Green</option>
+                            <option name="prefer" value="yellow" id="yellow">Yellow</option>
+                        </select>
+                    </fieldset>
+                </li>
+                <li>
+                    <label for="time">Time</label>
+                    <input type="time" id="time">
+                    <label for="date">Date</label>
+                    <input type="date" id="date">
+                </li>
+                <li>
+                    <button type="submit">Submit</button>
+                </li> 
+            </ul>  
+        </form>
+    </fieldset>
+</body>
+</html>
